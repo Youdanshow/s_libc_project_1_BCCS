@@ -26,7 +26,6 @@ Affiche une chaîne de caractères suivie d'un retour à la ligne sur la sortie 
 - **-1** en cas d'erreur.
 
 ### Exemple
-En cours de developpement.
 ```c
 s_puts("Hello, World!");
 ```
