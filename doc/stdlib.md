@@ -4,6 +4,7 @@
 Ce fichier décrit les fonctions de la bibliothèque **Super libc** liées à la gestion de la mémoire et aux conversions numériques, implémentées en assembleur.
 
 ## 1. `s_abs`
+### Prototype
 ```c
 int s_abs(int n);
 ```
@@ -24,6 +25,7 @@ int result = s_abs(-42); // result = 42
 ---
 
 ## 2. `s_atoi`
+### Prototype
 ```c
 int s_atoi(const char *str);
 ```
@@ -45,6 +47,7 @@ int num = s_atoi("123"); // num = 123
 ---
 
 ## 3. `s_exit`
+### Prototype
 ```c
 void s_exit(int status);
 ```

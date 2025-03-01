@@ -4,6 +4,7 @@
 Ce fichier décrit les fonctions de la bibliothèque **Super libc** liées aux opérations mathématiques, implémentées en assembleur.
 
 ## 1. `s_abs`
+### Prototype
 ```c
 int s_abs(int n);
 ```
@@ -24,6 +25,7 @@ int result = s_abs(-15); // result = 15
 ---
 
 ## 2. `s_div`
+### Prototype
 ```c
 int s_div(int a, int b);
 ```
@@ -46,6 +48,7 @@ int result = s_div(10, 2); // result = 5
 ---
 
 ## 3. `s_pow`
+### Prototype
 ```c
 int s_pow(int base, int exp);
 ```
@@ -68,6 +71,7 @@ int result = s_pow(2, 3); // result = 8
 ---
 
 ## 4. `s_exp`
+### Prototype
 ```c
 double s_exp(double x);
 ```
