@@ -41,10 +41,15 @@ s_libc_project_[num_groupe]_[num_equipe]/
     Cutter (optionnel pour l'analyse visuelle)
 
 ### Compilation
-
+    make clean
+    make test
+    export LD_LIBRARY_PATH=./lib:$LD_LIBRARY_PATH
+    
 ### Lancement des Tests
+    ./test/my_prog
 
 ### Nettoyage
+    make clean
 
 Utilisation
 
