@@ -4,6 +4,7 @@
 Ce fichier décrit les fonctions de la bibliothèque **Super libc** liées à la manipulation des chaînes de caractères, implémentées en assembleur.
 
 ## 1. `s_strcpy`
+### Prototype
 ```c
 char *s_strcpy(char *dest, const char *src);
 ```
