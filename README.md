@@ -43,19 +43,15 @@ s_libc_project_[num_groupe]_[num_equipe]/
 ### Compilation
     make clean
     make test
-    export LD_LIBRARY_PATH=./lib:$LD_LIBRARY_PATH
     
+### Varible d'environnement
+    export LD_LIBRARY_PATH=./lib:$LD_LIBRARY_PATH
+
 ### Lancement des Tests
     ./test/my_prog
 
 ### Nettoyage
     make clean
-
-Utilisation
-
-    Compiler la bibliothèque.
-    Lier votre programme avec la bibliothèque.
-    Utiliser les fonctions disponibles via les en-têtes.
 
 ## Auteurs
 
