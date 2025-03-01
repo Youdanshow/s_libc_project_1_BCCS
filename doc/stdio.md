@@ -1,12 +1,8 @@
 # Documentation des Fonctions `s_stdio.h`
 Projet : s_libc_project_1_BCCS  
 
----
-
 ## Description
 Ce fichier décrit les fonctions de la bibliothèque **Super libc** liées aux entrées/sorties standard, implémentées en assembleur.
-
----
 
 ## Bibliothèque
 ```c
