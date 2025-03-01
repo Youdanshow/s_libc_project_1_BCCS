@@ -21,6 +21,7 @@ Affiche une chaîne de caractères suivie d'un retour à la ligne sur la sortie 
 ### Valeur de retour
     Renvoie le nombre de caractères écrits.
     Renvoie -1 en cas d'erreur.
+
 ### Exemple 
 
 ## 2. `s_fopen`
@@ -34,6 +35,8 @@ mode : Mode d'ouverture du fichier ("r", "w", "a").
 ### Valeur de retour
     Retourne un pointeur vers le fichier.
     Retourne NULL en cas d'erreur.
+
+### Exemple 
 
 ## 3. `s_fread`
 ### Description
@@ -49,6 +52,8 @@ Lit des données depuis un fichier.
     Retourne le nombre d'éléments lus.
     Retourne 0 en cas d'erreur ou de fin de fichier.
 
+### Exemple 
+
 ## 4. `s_fwrite`
 ### Description
 Écrit des données dans un fichier.
@@ -63,6 +68,8 @@ Lit des données depuis un fichier.
     Retourne le nombre d'éléments écrits.
     Retourne 0 en cas d'erreur.
 
+### Exemple 
+
 ## 5. `s_fclose`
 ### Description
 Ferme un fichier ouvert.
@@ -73,6 +80,8 @@ Ferme un fichier ouvert.
 ### Valeur de retour
     Retourne 0 en cas de succès.
     Retourne -1 en cas d'erreur.
+
+### Exemple 
 
 ## Remarque
 Toutes les fonctions suivent la convention des bibliothèques standard C pour assurer une compatibilité maximale avec les programmes utilisateur.
