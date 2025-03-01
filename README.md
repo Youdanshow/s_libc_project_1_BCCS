@@ -51,7 +51,3 @@ s_libc_project_[num_groupe]_[num_equipe]/
     Eliott CHARBOTEL
     Dorian CHOLEZ
     Damien SANTERO
-
-## Remerciements
-
-    Projet encadré par Halim Djerroud dans le cadre de la SAE 3.3.
