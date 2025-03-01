@@ -23,8 +23,12 @@ Affiche une chaîne de caractères suivie d'un retour à la ligne sur la sortie 
     Renvoie -1 en cas d'erreur.
 
 ### Exemple 
+En cours de developpement
 
 ## 2. `s_fopen`
+```c
+FILE* s_fopen(const char *filename, const char *mode);
+```
 ### Description
 Ouvre un fichier pour la lecture ou l'écriture.
 
@@ -37,8 +41,12 @@ mode : Mode d'ouverture du fichier ("r", "w", "a").
     Retourne NULL en cas d'erreur.
 
 ### Exemple 
+fonction non développée
 
 ## 3. `s_fread`
+```c
+size_t s_fread(void *ptr, size_t size, size_t count, FILE *stream);
+```
 ### Description
 Lit des données depuis un fichier.
 
@@ -53,8 +61,12 @@ Lit des données depuis un fichier.
     Retourne 0 en cas d'erreur ou de fin de fichier.
 
 ### Exemple 
+fonction non développée
 
 ## 4. `s_fwrite`
+```c
+size_t s_fwrite(const void *ptr, size_t size, size_t count, FILE *stream);
+```
 ### Description
 Écrit des données dans un fichier.
 
@@ -69,8 +81,12 @@ Lit des données depuis un fichier.
     Retourne 0 en cas d'erreur.
 
 ### Exemple 
+fonction non développée
 
 ## 5. `s_fclose`
+```c
+int s_fclose(FILE *stream);
+```
 ### Description
 Ferme un fichier ouvert.
 
@@ -82,7 +98,4 @@ Ferme un fichier ouvert.
     Retourne -1 en cas d'erreur.
 
 ### Exemple 
-
-## Remarque
-Toutes les fonctions suivent la convention des bibliothèques standard C pour assurer une compatibilité maximale avec les programmes utilisateur.
-
+fonction non développée

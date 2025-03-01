@@ -78,6 +78,3 @@ e^x.
 ```c
 double result = s_exp(1.0); // result ≈ 2.718
 ```
-
-## Remarque
-Les fonctions suivent les conventions de la bibliothèque standard C pour assurer une compatibilité maximale avec les programmes utilisateur.

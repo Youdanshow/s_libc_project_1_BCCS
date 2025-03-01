@@ -54,8 +54,7 @@ status : Code de retour à renvoyer au système d'exploitation.
 Cette fonction ne retourne pas, car elle termine le programme.
 
 ### Exemple
+En cours de developpement
 ```c
 s_exit(0);
 ```
-## Remarque
-Les fonctions respectent les conventions de la bibliothèque standard C pour assurer une compatibilité maximale.
