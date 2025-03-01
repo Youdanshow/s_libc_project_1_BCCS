@@ -1,7 +1,7 @@
-# Documentation des Fonctions s_math.h
+# Documentation des Fonctions `s_math.h`
 
 ## Description
-Ce fichier décrit les fonctions de la bibliothèque Super libc liées aux opérations mathématiques, implémentées en assembleur.
+Ce fichier décrit les fonctions de la bibliothèque **Super libc** liées aux opérations mathématiques, implémentées en assembleur.
 
 ## 1. `s_abs`
 ```c
@@ -11,15 +11,17 @@ int s_abs(int n);
 Retourne la valeur absolue d'un entier.
 
 ### Paramètres
-n : Entier dont on veut obtenir la valeur absolue.
+- **`n`** : Entier dont on veut obtenir la valeur absolue.
 
 ### Valeur de retour
-La valeur absolue de n.
+- La valeur absolue de **`n`**.
 
 ### Exemple
 ```c
 int result = s_abs(-15); // result = 15
 ```
+
+---
 
 ## 2. `s_div`
 ```c
@@ -29,17 +31,19 @@ int s_div(int a, int b);
 Effectue une division entière entre deux nombres.
 
 ### Paramètres
-a : Dividende.
-b : Diviseur.
+- **`a`** : Dividende.
+- **`b`** : Diviseur.
 
 ### Valeur de retour
-Résultat de la division entière a / b.
-Retourne 0 si b == 0 pour éviter la division par zéro.
+- Résultat de la division entière **a / b**.
+- Retourne **0** si **b == 0** pour éviter la division par zéro.
 
 ### Exemple
 ```c
 int result = s_div(10, 2); // result = 5
 ```
+
+---
 
 ## 3. `s_pow`
 ```c
@@ -49,30 +53,32 @@ int s_pow(int base, int exp);
 Calcule la puissance d'un nombre entier.
 
 ### Paramètres
-base : Base.
-exp : Exposant (positif uniquement).
+- **`base`** : Base.
+- **`exp`** : Exposant (positif uniquement).
 
 ### Valeur de retour
-base^exp.
-Retourne 1 si exp == 0.
+- **base^exp**.
+- Retourne **1** si **exp == 0**.
 
 ### Exemple
 ```c
 int result = s_pow(2, 3); // result = 8
 ```
 
+---
+
 ## 4. `s_exp`
 ```c
 double s_exp(double x);
 ```
 ### Description
-Calcule l'exponentielle e^x.
+Calcule l'exponentielle **e^x**.
 
 ### Paramètres
-x : Valeur de l'exposant.
+- **`x`** : Valeur de l'exposant.
 
 ### Valeur de retour
-e^x.
+- **e^x**.
 
 ### Exemple
 ```c
