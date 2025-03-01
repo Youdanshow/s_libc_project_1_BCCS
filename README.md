@@ -23,7 +23,7 @@ s_libc_project_[num_groupe]_[num_equipe]/
 ├── doc/         # Documentation des fonctions
 ├── README.md    # Description du projet
 └── Makefile     # Script pour automatiser la compilation
-
+```
 
 
 ### CrackMe
