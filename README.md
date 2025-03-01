@@ -25,7 +25,6 @@ s_libc_project_[num_groupe]_[num_equipe]/
 └── Makefile     # Script pour automatiser la compilation
 ```
 
-
 ### CrackMe
 
     Analyse de binaires pour découvrir des identifiants et mots de passe cachés.
@@ -33,13 +32,6 @@ s_libc_project_[num_groupe]_[num_equipe]/
     Réécriture des programmes en C.
 
 ## Installation
-### Pré-requis
-
-    Linux (Ubuntu recommandé)
-    GCC (support 32 bits)
-    radare2
-    Cutter (optionnel pour l'analyse visuelle)
-
 ### Compilation
     make clean
     make test
